@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BWN</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/87aa1599dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+      <nav>
+          <a href="index.html"><img src="images/logo.png" alt="Logo BWN"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About us</h1>
+</section>
+
+<!--About us content-->
+
+<section class="about">
+  <div class="row">
+    <div class="about-col">
+      <h1>Improving the quality of life with innovation</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni facere perferendis recusandae vitae, beatae cumque, soluta commodi a aspernatur unde fugit voluptatibus adipisci corrupti, hic ut incidunt laboriosam placeat qui!</p>
+      <a href="index.html" class="hero-btn purple-btn">EXPLORE</a>
+    </div>
+    <div class="about-col">
+      <img src="images/pic9.jpg">
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor optio ducimus et, dicta quibusdam blanditiis. Culpa exercitationem animi earum voluptas rem sint."</p>
+</section>
+
+<!--JavaScript for Toggle Menu-->
+
+<script>
+  var navLinks = document.getElementById("navLinks")
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-200px";
+  }
+</script>
+</body>
+</html>
