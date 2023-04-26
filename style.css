@@ -376,3 +376,31 @@ h3{
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #161616;
+    color: #f0ece2;
+  }
+  .company-col {
+    background-color: #7459f863;
+  }
+  p, .contact-col div p {
+    color:#d4d4d4;
+  }
+  img {
+    filter: brightness(0.9);
+  }
+  .layer:hover{
+    background: #7459f88e;
+  }
+  .contact-col div h5 {
+    color: #f0ece2;
+  }
+  .contact-col input, .contact-col textarea {
+    background-color: #d4d4d4;
+  }
+  .contact-col input::placeholder,  .contact-col textarea::placeholder{
+    color: #161616c9;
+  }
+}
